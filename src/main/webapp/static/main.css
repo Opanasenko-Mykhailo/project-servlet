@@ -1,3 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
 td {
     border: 3px solid black;
     padding: 10px;
@@ -8,4 +22,21 @@ td {
     font-size: 50px;
     text-align: center;
     empty-cells: show;
+    transition: background-color 0.3s, transform 0.2s;
+}
+td:hover {
+    background-color: #3498db;
+}
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2980b9;
 }
